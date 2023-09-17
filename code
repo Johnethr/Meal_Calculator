@@ -1,0 +1,8 @@
+food_charge = input("How much did the food cost? ")
+print("Charge for food = "+"$"+food_charge)
+tip = 0.18*float(food_charge)
+print("Tip = "+"$"+str(tip))
+tax = 0.07*float(food_charge)
+print("Tax = "+"$"+str(tax))
+total_cost = float(food_charge)+tip+tax
+print("Total order cost = "+"$"+str(total_cost))
